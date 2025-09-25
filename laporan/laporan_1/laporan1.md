@@ -72,7 +72,9 @@ Sebagai bahasa berorientasi objek, Java memberi struktur jelas pada program mela
 
 ![Cuplikan layar 2025-09-25 135207.png](gambar/Cuplikan%20layar%202025-09-25%20135207.png)
 
-4.Lalu run code diatas dengan klik segitiga bewarna hijau diatas:
+  4.Lalu run code diatas dengan klik segitiga bewarna hijau diatas:
+
+
 ![Cuplikan layar 2025-09-25 135439.png](gambar/Cuplikan%20layar%202025-09-25%20135439.png)
 ---
 
