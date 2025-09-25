@@ -42,15 +42,15 @@ public class WhileloopDemo {
                     int n = input.nextInt();
                     long faktorial = 1;
                     for (int i=1;i<=n;i++){
-                        faktorial *=1;
+                        faktorial *=i;
                     }
-                    System.out.println("Faktorial"+n+"="+faktorial);
+                    System.out.println("Faktorial" + n + "=" +faktorial);
                     break;
                 case 3:
                     System.out.println("terima kasih");
                     break;
                 default:
-                    System.out.println("pilihan tidsk sesuai");
+                    System.out.println("pilihan tidak sesuai");
             }
         }while(pilihan!=3);
         input.close();

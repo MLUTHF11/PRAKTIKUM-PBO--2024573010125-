@@ -10,7 +10,7 @@ public static void main(String[] args) {
     int umur = input.nextInt();
 
     if (umur>=0) {
-        if (umur >= 2) {
+        if (umur <= 2) {
             System.out.println("kategori: Bayi");
         } else if (umur <= 5) {
             System.out.println("kategori: Balita");

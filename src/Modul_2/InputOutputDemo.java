@@ -12,11 +12,11 @@ public class InputOutputDemo {
         String nama = input.nextLine();
 
         //membaca input integer
-        System.out.print("Masukkan umur Anda");
+        System.out.print("Masukkan umur Anda: ");
         int umur = input.nextInt();
 
         //membaca input double
-        System.out.println("Masukkan tinggi anda (cm): ");
+        System.out.print("Masukkan tinggi anda (cm): ");
         double tinggi = input.nextInt();
 
         //menampilkan output
