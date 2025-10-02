@@ -25,7 +25,7 @@ public class InputOutputDemo {
         System.out.println("umur : "+umur + "tahun");
         System.out.println("tinggi: "+tinggi +"cm");
 
-        //menutup Scanner
+        //menutup scanner atau selesai menginput
         input.close();
     }
 }
