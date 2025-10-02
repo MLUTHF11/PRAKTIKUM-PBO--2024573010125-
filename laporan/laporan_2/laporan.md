@@ -118,7 +118,7 @@ perulangan yang tersedia dalam java adalah do-while,While Loop,For Loop
 ## 3. Kesimpulan
  
 Praktikum ini memberikan pemahaman
-dan pengalaman menulis code dan pengenalan dari setiap dasar-dasar pemograman Java yaitu tentang variabel,tipe data,pengulangan,
+dan pengalaman menulis code serta pengenalan dari setiap dasar-dasar pemograman Java yaitu tentang variabel,tipe data,pengulangan,
 pencabangan,input dan output dalam pemograman java.
 
 ---
@@ -126,11 +126,18 @@ pencabangan,input dan output dalam pemograman java.
 ## 5. Referensi
 Cantumkan sumber yang Anda baca (buku, artikel, dokumentasi) — minimal 2 sumber. Gunakan format sederhana (judul — URL).
 
+Variabel dan tipe data :
+
 https://www.petanikode.com/java-variabel-dan-tipe-data/
+Input,output dan scanner:
 
 https://www.petanikode.com/java-input-output/
 
+Percabangan:
+
 https://www.petanikode.com/java-percabangan/
+
+Perulangan:
 
 https://id.javascript.info/while-for
 
