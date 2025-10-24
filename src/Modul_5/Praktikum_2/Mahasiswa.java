@@ -23,23 +23,26 @@ public class Mahasiswa {
     // GETTER METHOD
 
     public String getNpm() {
+
         return npm;
     }
 
     public String getNama() {
+
         return nama;
     }
 
     public String getJurusan() {
+
         return jurusan;
     }
 
     public double getIpk() {
+
         return ipk;
     }
 
     public int getSemester() {
-        // Asumsi semester diubah menjadi "10" prefix
         return semester;
     }
 
@@ -49,8 +52,7 @@ public class Mahasiswa {
 
     // SETTER METHODS (dengan validasi)
 
-    // Note: npm, ipk tidak dibuat setter karena dianggap data yang sudah baku
-    // dan hanya diinisialisasi di constructor atau melalui metode khusus
+    // Note: npm, ipk tidak dibuat setter karena dianggap data yang sudah baku dan hanya diinisialisasi di constructor atau melalui metode khusus
 
     public void setNama(String nama) {
         // Validasi: Nama hanya huruf dan spasi, dimulai huruf kapital

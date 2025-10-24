@@ -2,7 +2,7 @@ package Modul_3;
 
 import java.util.Scanner;
 
-public class StringJava {
+public class StringDasar {
     public static void analisisString(String teks) {
         System.out.println("\n=== ANALISIS STRING ===");
         System.out.println("Teks asli: \"" + teks + "\"");

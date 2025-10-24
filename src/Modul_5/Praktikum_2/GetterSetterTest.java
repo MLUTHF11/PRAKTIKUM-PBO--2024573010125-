@@ -66,7 +66,6 @@ public class GetterSetterTest {
         // Tidak bisa akses langsung (akan error)
 
         System.out.println("\nCATATAN ENKAPSULASI:");
-        // Baris-baris di bawah ini akan menyebabkan ERROR Kompilasi
         // karena field-field tersebut dideklarasikan sebagai private di kelas Mahasiswa.
         System.out.println("X TIDAK BISA: mhs.npm = \"123\";");
         System.out.println("X TIDAK BISA: mhs.ipk = 5.0;");
