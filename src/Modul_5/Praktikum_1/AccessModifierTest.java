@@ -6,15 +6,15 @@ public class AccessModifierTest {
         Person person = new Person("Budi Santoso", 25);
 
         // Test akses public
-        person.email = "budi@email.com"; // OK - public
+        person.email = "budiSantos@email.com"; // OK - public
         System.out.println("Email: " + person.email);
 
         // Test akses default (dalam package yang sama)
-        person.alamat = "Jakarta"; // OK - dalam package yang sama
+        person.alamat = "Jakarta";
         System.out.println("Alamat: " + person.alamat);
 
         // Test akses protected (dalam package yang sama)
-        person.telepon = "081234567890"; // OK - dalam package yang sama
+        person.telepon = "081234567890";
         System.out.println("Telepon: " + person.telepon);
 
         // Test akses private - AKAN ERROR jika uncomment

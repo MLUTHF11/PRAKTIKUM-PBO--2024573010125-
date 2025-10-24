@@ -14,17 +14,16 @@ public class ProductTest {
         laptop.tampilkanInfo();
         mouse.tampilkanInfo();
 
-        // ====================================================
         //  TEST READ-ONLY PROPERTIES
-        // ====================================================
+
         System.out.println("TEST READ-ONLY PROPERTIES");
         System.out.println("Product ID (read-only): " + laptop.getProductId());
         System.out.println("Created At (read-only): " + laptop.getCreatedAt());
-        System.out.println("✔ Properti ini TIDAK BISA diubah setelah dibuat\n");
+        System.out.println(" Properti ini TIDAK BISA diubah setelah dibuat\n");
 
-        // ====================================================
+
         //  TEST READ-WRITE PROPERTIES
-        // ====================================================
+
         System.out.println("TEST READ-WRITE PROPERTIES");
 
         // Test 1: Ubah harga tanpa PIN (akan gagal)
@@ -43,9 +42,9 @@ public class ProductTest {
         System.out.println("\n 4.Ubah stok:");
         laptop.setStok(20, "1234");
 
-        // ====================================================
-        //  TEST WRITE-ONLY PROPERTY (admin PIN)
-        // ====================================================
+
+        //  TEST WRITE-ONLY PROPERTY
+
         System.out.println("\nTEST WRITE-ONLY PROPERTY (PIN)");
         System.out.println("PIN tidak bisa dibaca (tidak ada getter).");
         System.out.println("Hanya bisa diubah dengan validasi PIN lama:");
@@ -54,18 +53,17 @@ public class ProductTest {
         // Ubah PIN dengan salah (akan gagal)
         laptop.changeAdminPin("0000", "9999");
 
-        // ====================================================
+
         //  TEST COMPUTED PROPERTIES
-        // ====================================================
+
         System.out.println("\nTEST COMPUTED PROPERTIES");
         System.out.printf("Total Nilai Laptop : Rp %.2f%n", laptop.getTotalNilai());
         System.out.println("Status Stok Laptop : " + laptop.getStatusStok());
         System.out.printf("Total Nilai Mouse  : Rp %.2f%n", mouse.getTotalNilai());
         System.out.println("Status Stok Mouse  : " + mouse.getStatusStok());
 
-        // ====================================================
         //  TEST BUSINESS METHODS
-        // ====================================================
+
         System.out.println("\nTEST BUSINESS METHODS");
 
         // Tambah stok laptop
@@ -84,16 +82,15 @@ public class ProductTest {
         System.out.println("\n 4. Coba kurangi stok lebih dari tersedia:");
         mouse.kurangiStok(10, "1234");
 
-        // ====================================================
+
         //  TAMPILKAN INFO AKHIR
-        // ====================================================
+
         System.out.println("\nINFORMASI PRODUK SETELAH UPDATE:");
         laptop.tampilkanInfo();
         mouse.tampilkanInfo();
 
-        // ====================================================
         //  RINGKASAN ENCAPSULATION
-        // ====================================================
+
         System.out.println("RINGKASAN ENCAPSULATION ");
         System.out.println("----------------------------");
         System.out.println("READ-ONLY  : productId, createdAt   (tidak bisa diubah)");

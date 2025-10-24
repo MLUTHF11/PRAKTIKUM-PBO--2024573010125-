@@ -21,9 +21,8 @@ public class Product {
     //  Counter untuk ID otomatis
     private static int counter = 1000;
 
-    // =========================
     //  CONSTRUCTOR
-    // =========================
+
     public Product(String nama, double harga, int stok, String adminPin) {
         this.productId = generateProductId();
         this.createdAt = LocalDateTime.now();
@@ -33,9 +32,8 @@ public class Product {
         this.adminPin = adminPin;
     }
 
-    // =========================
     //  PRIVATE HELPER METHODS
-    // =========================
+
     private String generateProductId() {
         counter++;
         return "PRD-" + counter;
@@ -45,9 +43,8 @@ public class Product {
         return this.adminPin.equals(inputPin);
     }
 
-    // =========================
     //  READ-ONLY PROPERTIES
-    // =========================
+
     public String getProductId() {
         return productId;
     }
@@ -57,9 +54,8 @@ public class Product {
         return createdAt.format(formatter);
     }
 
-    // =========================
     //  READ-WRITE PROPERTIES
-    // =========================
+
     public String getNama() {
         return name;
     }
@@ -111,9 +107,9 @@ public class Product {
         System.out.println("V Stok berhasil diubah menjadi " + stok);
     }
 
-    // =========================
+
     //  WRITE-ONLY PROPERTY (PIN)
-    // =========================
+
     public void changeAdminPin(String oldPin, String newPin) {
         if (!validatePin(oldPin)) {
             System.out.println("X PIN lama salah!");
@@ -127,9 +123,8 @@ public class Product {
         System.out.println("V PIN berhasil diubah!");
     }
 
-    // =========================
+
     //  COMPUTED PROPERTIES
-    // =========================
     public double getTotalNilai() {
         return harga * stok;
     }
@@ -141,9 +136,7 @@ public class Product {
         else return "BANYAK";
     }
 
-    // =========================
     //  PUBLIC METHODS
-    // =========================
     public boolean tambahStok(int jumlah, String pin) {
         if (!validatePin(pin)) {
             System.out.println("X PIN salah!");
@@ -177,9 +170,8 @@ public class Product {
         return true;
     }
 
-    // =========================
+
     //  DISPLAY INFO
-    // =========================
     public void tampilkanInfo() {
         System.out.println("\n=== INFORMASI PRODUK ===");
         System.out.println("Product ID : " + productId);

@@ -20,9 +20,7 @@ public class Mahasiswa {
         this.aktif = true;
     }
 
-    // //////////////////////////////////////////////////
-    // GETTER METHODS
-    // //////////////////////////////////////////////////
+    // GETTER METHOD
 
     public String getNpm() {
         return npm;
@@ -49,9 +47,7 @@ public class Mahasiswa {
         return aktif;
     }
 
-    // //////////////////////////////////////////////////
     // SETTER METHODS (dengan validasi)
-    // //////////////////////////////////////////////////
 
     // Note: npm, ipk tidak dibuat setter karena dianggap data yang sudah baku
     // dan hanya diinisialisasi di constructor atau melalui metode khusus
@@ -97,9 +93,7 @@ public class Mahasiswa {
         System.out.println("Status keaktifan: " + status);
     }
 
-    // //////////////////////////////////////////////////
-    // PRIVATE METHOD (Logika Tambahan)
-    // //////////////////////////////////////////////////
+    // PRIVATE METHOD
 
     // Metode private untuk memberikan predikat berdasarkan IPK
     public String getPredikat() {
@@ -114,9 +108,7 @@ public class Mahasiswa {
         }
     }
 
-    // //////////////////////////////////////////////////
     // PUBLIC METHOD (Tampilan Info)
-    // //////////////////////////////////////////////////
 
     public void tampilkanInfo() {
         System.out.println("---------- DATA MAHASISWA ----------");
