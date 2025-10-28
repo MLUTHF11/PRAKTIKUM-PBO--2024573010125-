@@ -52,7 +52,7 @@ lalu masukkan code seperti dibawah:
 ![img_13.png](Gambar/img_13.png)
 ![img_14.png](Gambar/img_14.png)
 #### Screenshoot Hasil
-[laporan.md](laporan.md)
+![img_15.png](Gambar/img_15.png)
 #### Analisa dan Pembahasan
 Pada praktikum ini kita membuat class mahasiswa,matakuliah,rencanakartustudi dan menguji semua class tersebut dalam Main
 
