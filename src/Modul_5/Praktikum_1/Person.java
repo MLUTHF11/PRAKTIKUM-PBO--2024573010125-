@@ -42,6 +42,6 @@ public class Person {
 
     // Method untuk mengakses private method
     public void panggilMetodePribadi() {
-        metodePribadi(); // OK - dalam class yang sama
+        metodePribadi();
     }
 }

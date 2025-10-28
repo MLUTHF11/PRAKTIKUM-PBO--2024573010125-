@@ -1,5 +1,7 @@
 package Modul_5.Praktikum_2;
 
+import java.sql.SQLOutput;
+
 public class Mahasiswa {
 
     // Private Fields (Data)
@@ -96,7 +98,13 @@ public class Mahasiswa {
     }
 
     // PRIVATE METHOD
-
+private void CekStatusAkademik(){
+        if (ipk < 2.0){
+            System.out.println(" ipk di bawah Standart");
+        }else if (ipk >= 3.5){
+            System.out.println("ipk Sangat baik !!");
+        }
+}
     // Metode private untuk memberikan predikat berdasarkan IPK
     public String getPredikat() {
         if (ipk >= 3.5) {
