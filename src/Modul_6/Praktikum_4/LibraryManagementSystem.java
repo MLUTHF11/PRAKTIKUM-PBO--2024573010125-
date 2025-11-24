@@ -1,4 +1,4 @@
-package Modul_6.Prakrikum_4;
+package Modul_6.Praktikum_4;
 
 import java.util.ArrayList;
 import java.util.Scanner;

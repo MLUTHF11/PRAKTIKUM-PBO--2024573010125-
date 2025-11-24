@@ -1,4 +1,4 @@
-package Modul_6.Prakrikum_4;
+package Modul_6.Praktikum_4;
 
 public class Magazine extends LibraryItem {
     private String publisher;
