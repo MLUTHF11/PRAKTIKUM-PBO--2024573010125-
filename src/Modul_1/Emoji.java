@@ -16,7 +16,9 @@ public class Emoji {
         System.out.println("\u2705 Operasi berhasil (Unicode)");  // ✅
         System.out.println("\u274C Terjadi kesalahan (Unicode)"); // ❌
         System.out.println("\u26A0 Peringatan (Unicode)");         // ⚠
-        System.out.println("\u1F4B0 Total penjualan (Unicode)");   // 💰 (kadang tidak muncul di semua font)
+        System.out.println("\u1F4B0 Total penjualan (Unicode)");   // 💰
+        System.out.println("\uD83C\uDFB6 Hasil sukses (Surrogate Pair)"); // 🎶
+        // (kadang tidak muncul di semua font)
     }
 }
 
